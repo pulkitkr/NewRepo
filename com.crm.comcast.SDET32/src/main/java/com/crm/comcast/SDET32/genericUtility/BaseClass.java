@@ -56,7 +56,7 @@ public class BaseClass {
 		} else if (BROWSER.equals("firefox")) {
 			driver = new FirefoxDriver();
 		} else
-			System.out.println("Browser doesn't exist");
+			System.out.println("Browser doesn' t exist");
 		
 		sDriver=driver;
 		
