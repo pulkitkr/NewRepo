@@ -47,8 +47,8 @@ public class BaseClass {
 	public void bcConfig(/*String BROWSER*/) throws IOException {
 
 		// getting data from property file
-		String BROWSER = fUtils.getDataFromPropertyFile(IPathConstant.BROWSER_KEY);
-//		String BROWSER = System.getProperty("browser");
+//		String BROWSER = fUtils.getDataFromPropertyFile(IPathConstant.BROWSER_KEY);
+		String BROWSER = System.getProperty("browser");
 		String URL = fUtils.getDataFromPropertyFile(IPathConstant.URL_KEY);
 
 		if (BROWSER.equals("chrome")) {
