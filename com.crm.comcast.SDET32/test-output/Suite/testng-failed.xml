@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="com.crm.comcast.SDET32.genericUtility.ListenerImplementationClass"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.crm.comcat.SDET32.TestNg.Assigned.Test.CreateOpportunitybyClickOnClear">
+        <methods>
+          <include name="bmConfig"/>
+          <include name="bcConfig"/>
+          <include name="CreateOpportunityUsingOrganisationAndClickOnClear"/>
+          <include name="bsConfig"/>
+          <include name="asConfig"/>
+          <include name="amConfig"/>
+          <include name="acConfig"/>
+        </methods>
+      </class> <!-- com.crm.comcat.SDET32.TestNg.Assigned.Test.CreateOpportunitybyClickOnClear -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
